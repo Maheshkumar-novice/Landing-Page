@@ -22,15 +22,29 @@ body {
   flex-direction: column;
 }
 
+button {
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+}
+
 .logo {
   font-size: 48px;
+}
+
+.signup {
+  padding: 12px 32px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #f9faf8;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 16px;
+  padding: 8px 0;
   background-color: #1f2937;
 }
 
@@ -51,4 +65,33 @@ body {
   text-decoration: none;
   margin-right: 16px;
   color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  padding: 128px 0;
+}
+
+.hero__text {
+  max-width: 700px;
+  margin-left: 128px;
+}
+
+.hero__heading {
+  color: #f9faf8;
+  font-weight: 400;
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.hero__paragraph {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-bottom: 16px;
+}
+
+.hero__image-container {
+  margin-right: 128px;
 }
