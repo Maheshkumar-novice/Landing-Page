@@ -4,4 +4,4 @@ Trying out the new html css lessons of The Odin Project. The resources were diff
 
 Landing Page!
 
-Image Credits: ![Lorem Picsum](https://picsum.photos/)
+Image Credits: [Lorem Picsum](https://picsum.photos/)
