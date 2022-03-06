@@ -107,6 +107,7 @@ button.inverted {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   gap: 32px;
   padding: 64px 0;
 }
