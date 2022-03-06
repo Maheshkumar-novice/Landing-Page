@@ -40,6 +40,12 @@ button {
   color: #f9faf8;
 }
 
+button.inverted {
+  background-color: #f9faf8;
+  color: #3882f6;
+  border: 2px solid #f9faf8;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -158,4 +164,29 @@ button {
   align-self: flex-end;
   font-size: 28px;
   font-weight: bold;
+}
+
+.call-to-action {
+  padding: 64px 0;
+  height: 400px;
+}
+
+.call-to-action__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 128px;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 10px;
+  padding: 32px;
+  height: 150px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.call-to-action__heading {
+  font-weight: 500;
+  font-size: 24px;
+  margin-bottom: 8px;
 }
